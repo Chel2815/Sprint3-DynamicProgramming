@@ -2,10 +2,12 @@
 
 ## Explicação do código
 
-Análise de Consumo de Insumos
+_Análise de Consumo de Insumos_
+
 Este projeto em Python demonstra a aplicação de estruturas de dados e algoritmos clássicos para gerenciar e analisar o consumo de insumos, como reagentes de laboratório. A aplicação utiliza filas, pilhas, e algoritmos de busca e ordenação para manipular os dados de forma eficiente.
 
-Classes e Estruturas de Dados
+_Classes e Estruturas de Dados_
+
 *Insumo*
 A classe Insumo representa um item individual com as seguintes propriedades:
 
@@ -22,7 +24,7 @@ Fila (self.fila): Implementada com collections.deque, a fila segue o princípio 
 
 Pilha (self.pilha): A pilha é uma lista que opera no princípio LIFO (Last-In, First-Out). O último item adicionado é o primeiro a ser removido. Aqui, a pilha armazena o histórico de consumo, sendo útil para desfazer operações ou para visualizar as consultas mais recentes de forma rápida.
 
-Algoritmos de Busca
+_Algoritmos de Busca_
 O código inclui duas implementações de algoritmos de busca para localizar um insumo na lista.
 
 *Busca Sequencial (busca_sequencial)*
@@ -31,7 +33,7 @@ Este algoritmo percorre a lista item por item do início ao fim até encontrar o
 *Busca Binária (busca_binaria)*
 Este é um algoritmo de busca muito mais eficiente, com uma complexidade de tempo de O(log n). No entanto, ele tem uma exigência crucial: a lista deve estar previamente ordenada. Ele funciona dividindo repetidamente a lista pela metade para encontrar o item. Se o item do meio for o que você procura, a busca termina. Se não, o algoritmo descarta a metade da lista onde o item não pode estar e continua a busca na metade restante.
 
-Algoritmos de Ordenação
+_Algoritmos de Ordenação_
 Para que a busca binária seja eficaz e para outras análises de dados, o código utiliza dois algoritmos clássicos de ordenação.
 
 *Merge Sort (merge_sort)*
