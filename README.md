@@ -5,7 +5,7 @@
 ###Análise de Consumo de Insumos
 Este projeto em Python demonstra a aplicação de estruturas de dados e algoritmos clássicos para gerenciar e analisar o consumo de insumos, como reagentes de laboratório. A aplicação utiliza filas, pilhas, e algoritmos de busca e ordenação para manipular os dados de forma eficiente.
 
-###Classes e Estruturas de Dados
+####Classes e Estruturas de Dados
 *Insumo*
 A classe Insumo representa um item individual com as seguintes propriedades:
 
@@ -22,7 +22,7 @@ Fila (self.fila): Implementada com collections.deque, a fila segue o princípio 
 
 Pilha (self.pilha): A pilha é uma lista que opera no princípio LIFO (Last-In, First-Out). O último item adicionado é o primeiro a ser removido. Aqui, a pilha armazena o histórico de consumo, sendo útil para desfazer operações ou para visualizar as consultas mais recentes de forma rápida.
 
-###Algoritmos de Busca
+####Algoritmos de Busca
 O código inclui duas implementações de algoritmos de busca para localizar um insumo na lista.
 
 *Busca Sequencial (busca_sequencial)*
@@ -31,7 +31,7 @@ Este algoritmo percorre a lista item por item do início ao fim até encontrar o
 *Busca Binária (busca_binaria)*
 Este é um algoritmo de busca muito mais eficiente, com uma complexidade de tempo de O(log n). No entanto, ele tem uma exigência crucial: a lista deve estar previamente ordenada. Ele funciona dividindo repetidamente a lista pela metade para encontrar o item. Se o item do meio for o que você procura, a busca termina. Se não, o algoritmo descarta a metade da lista onde o item não pode estar e continua a busca na metade restante.
 
-###Algoritmos de Ordenação
+####Algoritmos de Ordenação
 Para que a busca binária seja eficaz e para outras análises de dados, o código utiliza dois algoritmos clássicos de ordenação.
 
 *Merge Sort (merge_sort)*
@@ -40,7 +40,7 @@ O Merge Sort é um algoritmo de ordenação do tipo "dividir para conquistar". E
 *Quick Sort (quick_sort)*
 O Quick Sort também é um algoritmo de "dividir para conquistar" e geralmente é considerado um dos mais rápidos na prática. Ele funciona escolhendo um elemento chamado pivô e particionando a lista em três grupos: elementos menores que o pivô, elementos iguais ao pivô e elementos maiores que o pivô. Em seguida, ele aplica a mesma lógica recursivamente aos grupos de "menores" e "maiores" até que toda a lista esteja ordenada. A complexidade de tempo média é O(n log n).
 
-###Execução *(if __name__ == "__main__":)*
+####Execução *(if __name__ == "__main__":)*
 A seção de execução demonstra o uso de todas as classes e funções:
 
 Registro de Consumo: Quatro insumos são registrados, e a ordem de registro é mantida pela fila (consumo.mostrar_fila()).
