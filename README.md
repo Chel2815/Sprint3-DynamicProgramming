@@ -2,7 +2,7 @@
 
 ## Explicação do código
 
-###Análise de Consumo de Insumos
+Análise de Consumo de Insumos
 Este projeto em Python demonstra a aplicação de estruturas de dados e algoritmos clássicos para gerenciar e analisar o consumo de insumos, como reagentes de laboratório. A aplicação utiliza filas, pilhas, e algoritmos de busca e ordenação para manipular os dados de forma eficiente.
 
 Classes e Estruturas de Dados
