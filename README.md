@@ -1,1 +1,4 @@
-# Sprint3-DynamicProgramming
+# Sprint 3 Dynamic Programming
+
+## Explicação do código
+
